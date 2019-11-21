@@ -11,3 +11,4 @@ A test repository containing:
 * Dependencies.
 * Results for path-problem queries.
 * A custom query pack with QHelp and a library.
+* A Git LFS file.

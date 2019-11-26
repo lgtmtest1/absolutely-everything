@@ -5,8 +5,11 @@ public class java {
 		for (int i=0; i < ints.length; i++) {
 			int x = ints[i+1]; // true
 			int y = ints[i+1]; // lgtm[java/index-out-of-bounds] false
+			@SuppressWarnings("lgtm[java/index-out-of-bounds]")
+			int z = ints[i+1]; // false
 			System.out.println(x);
 			System.out.println(y);
+			System.out.println(z);
 		}
 	}
 }

@@ -3,6 +3,9 @@ path_classifiers:
     - /path-classifiers/explicitly-classified/
     - exclude: /path-classifiers/test/explicitly-unclassified/
 extraction:
+  go:
+    before_index:
+      - true
   java:
     index:
       build_command:

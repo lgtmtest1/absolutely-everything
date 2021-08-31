@@ -1,0 +1,13 @@
+<!DOCTYPE qhelp PUBLIC "-//Semmle//qhelp//EN" "qhelp.dtd">
+<qhelp>
+	<overview>
+		<p>Sometimes people make claims that are factually incorrect, that we find with a query in a subdirectory.</p>
+	</overview>
+	<recommendation>
+		<p>Change the statement to be correct.</p>
+	</recommendation>
+	<example>
+		<p>In the following code, an incorrect string is included.</p>
+		<sample src="factually-incorrect-string.py"/>
+	</example>
+</qhelp>
